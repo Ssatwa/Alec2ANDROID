@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ImageButtonActivity">
+
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Enter first number"
+        android:textSize="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Enter second number"
+        android:textSize="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+
+    <ImageButton
+        android:id="@+id/imgbtn"
+        android:src="@drawable/baseline_add_24"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"/>
+
+
+    <Button
+        android:id="@+id/multiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textSize="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"/>
+
+
+    <Button
+        android:id="@+id/divide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:textSize="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
